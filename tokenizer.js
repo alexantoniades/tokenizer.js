@@ -35,10 +35,6 @@ module.exports = class Tokenizer {
         }
     };
 
-    update(key, value) {
-        return(this.index[key] = value);
-    };
-
     add(key) {
         if (!this.exists(key)) {
             if (this.index.empty_slots.length == 0) {
@@ -93,5 +89,8 @@ module.exports = class Tokenizer {
 
     toJSON(path='./index.json') {
         return(fs.writeFileSync(path, JSON.stringify(this.index)));
+    };
+    fromJSON(path='./index.json') {
+        this.index = JSON.parse(fs.readFileSync(path));
     };
 };
