@@ -1,3 +1,4 @@
+const fs = require('fs');
 module.exports = class Tokenizer {
     constructor(vocabulary) {
         this.vocabulary = vocabulary;
