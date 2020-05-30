@@ -7,6 +7,8 @@ npm install tokenizer.js
 ```
 ## How to declare
 ```javascript
+import { Tokenizer } from 'tokenizer.js'; // ES6
+const Tokenizer = require('tokenizer.js') // Node.js
 // Declare a new object
 let tokenizer = new Tokenizer(array_of_sentences)
 // From JSON
