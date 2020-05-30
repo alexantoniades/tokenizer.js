@@ -1,9 +1,9 @@
 # tokenizer.js
-> A tokenizer written for JavaScipt ML applications
+> A tokenizer written for JavaScipt NLP applications
 
-## How to import
-```javascript
-const tokenizer = require('Tokenizer')
+## How to install
+```bash
+npm install tokenizer.js
 ```
 ## How to declare
 ```javascript
