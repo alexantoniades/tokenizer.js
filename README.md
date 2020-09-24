@@ -1,5 +1,5 @@
 # tokenizer.js
-> A tokenizer written for JavaScipt NLP applications
+> A tokenizer written for JavaScript NLP applications
 
 ## How to install
 ```bash
